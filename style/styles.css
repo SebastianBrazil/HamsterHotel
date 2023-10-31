@@ -1,3 +1,8 @@
+@font-face {
+    font-family: Dosis;
+    src: url(../assets/fonts/Dosis-VariableFont_wght.ttf);
+}
+
 .headerColor {
     background-color: #000324;
 }
@@ -33,3 +38,45 @@
 checkButtonBorder {
     color: #000DC7;
 }
+
+.navLogo {
+    padding-top: 12px;
+}
+
+.headerSize {
+    height: 120px;
+    /* https://www.pixelconverter.com/px-to-vw-converter/ */
+    /* 6.25vw */
+}
+
+.hyperLink{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+    font-family: Dosis;
+}
+
+.positionNav {
+    position: relative;
+    top: -40px;
+    width: 850px;
+    text-align: center;
+}
+
+.borderReserve {
+    border-style: solid;
+    border-width: 2px;
+    border-color: #E5FEFF;
+    height: 33px;
+    width: 92px;
+}
+
+.backImageOne {
+    width: 1920px;
+    height: 500px;
+    background-image: url("../assets/images/header.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
