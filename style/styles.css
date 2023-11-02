@@ -3,6 +3,11 @@
     src: url(../assets/fonts/Dosis-VariableFont_wght.ttf);
 }
 
+@font-face {
+    font-family: SSP;
+    src: url(../assets/fonts/SourceSansPro-Regular.otf);
+}
+
 .headerColor {
     background-color: #000324;
 }
@@ -49,7 +54,7 @@ checkButtonBorder {
     /* 6.25vw */
 }
 
-.hyperLink{
+.hyperLink {
     text-decoration: none;
     color: #ffffff;
     font-size: 20px;
@@ -80,3 +85,135 @@ checkButtonBorder {
     background-position: center;
 }
 
+.backImageTwo {
+    width: 1920px;
+    height: 738px;
+    background-image: url("../assets/images/bg2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.opacityEight {
+    opacity: 80%;
+}
+
+.titleBox {
+    background-color: #000324;
+    top: 253px;
+    width: 945px;
+    height: 232px;
+}
+
+.hamHomeSize {
+    width: 369px;
+    height: 416px;
+}
+
+.hampParTitle{
+    font-size: 35px;
+    font-family: Dosis;
+}
+
+.hampParText{
+    font-size: 16px;
+    font-family: SSP;
+}
+
+.finest {
+    width: 200px;
+    height: 153px;
+}
+
+.satisfaction {
+    width: 200px;
+    height: 193px;
+}
+
+.genuine {
+    width: 200px;
+    height: 175px;
+}
+
+.whiteColor {
+    color: #ffffff;
+}
+
+
+.runTitle {
+    position: absolute;
+
+    /* width: 945px; */
+    /* height: 232px; */
+    /* top: 312px; */
+
+    /* padding-top: 50px;
+    padding-bottom: 50px; */
+
+    /* display: flex;
+    justify-content: center; */
+
+    font-family: Dosis;
+    font-size: 45px;
+
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+
+
+}
+
+
+
+
+.absoluteCardOne {
+    position: absolute;
+    display: flex;
+    justify-content: space-evenly;
+    top: 1339px;
+left: 383px;
+width: 369px;
+height: 522px;
+}
+
+.absoluteCardTwo {
+    position: absolute;
+    display: flex;
+    justify-content: space-evenly;
+    top: 1339px;
+left: 766px;
+width: 369px;
+height: 522px;
+}
+
+.absoluteCardThree {
+    position: absolute;
+    display: flex;
+    justify-content: space-evenly;
+    top: 1339px;
+left: 1149px;
+width: 369px;
+height: 522px;
+}
+
+
+
+.exploreTitle {
+    position: absolute;
+
+    /* width: 945px; */
+    height: 312px;
+    top: 253px;
+
+
+    display: flex;
+    justify-content: center;
+
+    font-family: Dosis;
+    font-size: 45px;
+
+
+}
