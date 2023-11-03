@@ -159,34 +159,14 @@
     font-size: 16px;
 }
 
-.absoluteCardOne {
-    position: absolute;
-    display: flex;
-    justify-content: space-evenly;
-    top: 1339px;
-    left: 22%;
-    width: 369px;
+.cardStuff {
+    padding-top: 104px;
     height: 522px;
 }
 
-.absoluteCardTwo {
-    position: absolute;
-    display: flex;
-    justify-content: space-evenly;
-    top: 1339px;
-    left: 41%;
-    width: 369px;
-    height: 522px;
-}
-
-.absoluteCardThree {
-    position: absolute;
-    display: flex;
-    justify-content: space-evenly;
-    top: 1339px;
-    left: 60%;
-    width: 369px;
-    height: 522px;
+.cardFormat {
+    border-radius: 0px;
+    border-width: 0px;
 }
 
 .backImageThree {
@@ -210,8 +190,9 @@
     height: 50px;
     display: flex;
     justify-content: center;
-    align-content: center;
     margin-left: 10px;
+    padding-top: 8px;
+    text-decoration: none;
 }
 
 .cardTitle {
@@ -220,7 +201,7 @@
 }
 
 .cardText {
-    font: normal normal normal 15px SSP;
+    font: normal normal normal 16px SSP;
     text-wrap: nowrap;
     height: 137px;
     margin-left: -20px;
@@ -291,55 +272,40 @@
 }
 
 .twentyFour {
-    width: 150px;
     height: 101px;
-    margin-left: 100px;
 }
 
 .breakfast {
-    width: 150px;
     height: 104px;
-    margin-left: -20px;
 }
 
 .valet {
-    width: 100px;
     height: 115px;
-    margin-left: -90px;
 
 }
 
 .pool {
-    width: 155px;
     height: 110px;
-    margin-left: -130px;
 }
 
 .twentyFourText {
     font-size: 20px;
     font-family: SSPB;
-    margin-left: 475px;
-    text-wrap: nowrap;
 }
 
 .breakfastText {
     font-size: 20px;
     font-family: SSPB;
-    text-wrap: nowrap;
 }
 
 .valetText {
     font-size: 20px;
     font-family: SSPB;
-    margin-left: -285px;
-    text-wrap: nowrap;
 }
 
 .poolText {
     font-size: 20px;
     font-family: SSPB;
-    margin-left: -590px;
-    text-wrap: nowrap;
 }
 
 .box {
@@ -383,11 +349,13 @@
     font-size: 19px;
     text-wrap: nowrap;
     text-align: center;
-    margin-top: -40px;
+}
+
+.availBtnOrg {
+    margin-top: -25px;
 }
 
 .footer {
-    width: 1920;
     height: 300px;
     background-color: #000324;
 }
@@ -401,11 +369,83 @@
 .footerBotText {
     font-family: SSP;
     font-size: 16px;
-    margin-top: -30px;
+    margin-top: -50px;
 }
 
 .formatting {
-    margin-left: 82px;
-    margin-right: -100px;
-    margin-top: -10px;
+    padding-left: 95px;
+    text-wrap: nowrap;
+}
+
+@media screen and (max-width: 992px) {
+    .breakTablet {
+        display: flex;
+        justify-content: center;
+        margin-left: 150px;
+    }
+
+    .backImageTwo {
+        height: 1738px;
+    }
+
+    .positionNav {
+        width: 750px;
+    }
+
+    .roomTablet {
+        top: 1590px;
+    }
+
+    .box {
+        width: 720px;
+        height: 230px;
+    }
+
+    .genuine {
+        margin-left: 50px;
+    }
+
+    .hamHomeSize {
+        margin-top: 75px;
+    }
+
+    .centerTablet {
+        text-align: center;
+    }
+
+    .marginTablet {
+        margin-bottom: 20px;
+    }
+
+    .formEffect {
+        width: 90px;
+        margin-left: -25px;
+    }
+
+    .availBtn {
+        margin-left: -25px;
+    }
+
+    .formatting {
+        padding-left: 55px;
+        padding-bottom: 10px;
+        text-wrap: wrap;
+        text-align: center;
+    }
+
+    .twentyFour {
+        padding-right: 25px;
+    }
+
+    .pool {
+        padding-left: 35px;
+    }
+
+    .twentyFourText {
+        padding-right: 35px;
+    }
+    
+    .poolText {
+        padding-left: 35px;
+    }
 }
