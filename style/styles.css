@@ -5,7 +5,12 @@
 
 @font-face {
     font-family: SSP;
-    src: url(../assets/fonts/SourceSansPro-Regular.otf);
+    src: url(../assets/fonts/SourceSansPro-Light.otf);
+}
+
+@font-face {
+    font-family: SSPB;
+    src: url(../assets/fonts/SourceSansPro-Bold.otf);
 }
 
 .headerColor {
@@ -28,30 +33,24 @@
     color: #1F51A8;
 }
 
-.BoxColor {
-    background-color: #EBEDFC;
-}
-
-.boxBorder {
-    color: #7A90D9;
-}
-
-.checkButtonColor {
-    background-color: #006EDB;
-}
-
-checkButtonBorder {
-    color: #000DC7;
+.whiteColor {
+    color: #ffffff;
 }
 
 .navLogo {
-    padding-top: 12px;
+    margin-top: 12px;
+    width: 143px;
+    height: 100px;
+}
+
+.footerLogo {
+    margin-top: 25px;
+    width: 143px;
+    height: 100px;
 }
 
 .headerSize {
     height: 120px;
-    /* https://www.pixelconverter.com/px-to-vw-converter/ */
-    /* 6.25vw */
 }
 
 .hyperLink {
@@ -77,16 +76,14 @@ checkButtonBorder {
 }
 
 .backImageOne {
-    width: 1920px;
     height: 500px;
     background-image: url("../assets/images/header.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: 50% 56%;
 }
 
 .backImageTwo {
-    width: 1920px;
     height: 738px;
     background-image: url("../assets/images/bg2.jpg");
     background-size: cover;
@@ -100,7 +97,7 @@ checkButtonBorder {
 
 .titleBox {
     background-color: #000324;
-    top: 253px;
+    top: 254px;
     width: 945px;
     height: 232px;
 }
@@ -110,13 +107,13 @@ checkButtonBorder {
     height: 416px;
 }
 
-.hampParTitle{
+.hampParTitle {
     font-size: 35px;
     font-family: Dosis;
 }
 
-.hampParText{
-    font-size: 16px;
+.hampParText {
+    font-size: 16.5px;
     font-family: SSP;
 }
 
@@ -135,48 +132,41 @@ checkButtonBorder {
     height: 175px;
 }
 
-.whiteColor {
-    color: #ffffff;
-}
-
-
 .runTitle {
     position: absolute;
-
-    /* width: 945px; */
-    /* height: 232px; */
-    /* top: 312px; */
-
-    /* padding-top: 50px;
-    padding-bottom: 50px; */
-
-    /* display: flex;
-    justify-content: center; */
-
     font-family: Dosis;
     font-size: 45px;
-
-
-
     display: flex;
     justify-content: center;
-    align-items: center;
-    height: 200px;
-
-
+    padding-top: 59px;
 }
 
+.roomTitle {
+    position: absolute;
+    font-family: Dosis;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    top: 1266px;
+}
 
-
+.exploreTitle {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    padding-top: 264px;
+    font-family: SSP;
+    font-size: 16px;
+}
 
 .absoluteCardOne {
     position: absolute;
     display: flex;
     justify-content: space-evenly;
     top: 1339px;
-left: 383px;
-width: 369px;
-height: 522px;
+    left: 22%;
+    width: 369px;
+    height: 522px;
 }
 
 .absoluteCardTwo {
@@ -184,9 +174,9 @@ height: 522px;
     display: flex;
     justify-content: space-evenly;
     top: 1339px;
-left: 766px;
-width: 369px;
-height: 522px;
+    left: 41%;
+    width: 369px;
+    height: 522px;
 }
 
 .absoluteCardThree {
@@ -194,26 +184,228 @@ height: 522px;
     display: flex;
     justify-content: space-evenly;
     top: 1339px;
-left: 1149px;
-width: 369px;
-height: 522px;
+    left: 60%;
+    width: 369px;
+    height: 522px;
 }
 
+.backImageThree {
+    height: 548px;
+    background-image: url("../assets/images/bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 67%;
+}
 
+.zoom {
+    height: 190px;
+    object-fit: cover;
+}
 
-.exploreTitle {
-    position: absolute;
-
-    /* width: 945px; */
-    height: 312px;
-    top: 253px;
-
-
+.btnCorner {
+    font-family: SSPB;
+    font-size: 20px;
+    border-radius: 0px;
+    width: 150px;
+    height: 50px;
     display: flex;
     justify-content: center;
+    align-content: center;
+    margin-left: 10px;
+}
 
+.cardTitle {
     font-family: Dosis;
-    font-size: 45px;
+    font-size: 25px;
+}
 
+.cardText {
+    font: normal normal normal 15px SSP;
+    text-wrap: nowrap;
+    height: 137px;
+    margin-left: -20px;
+}
 
+.subTitle {
+    font-family: SSPB;
+    font-size: 16px;
+}
+
+.weddingImg {
+    top: 2143px;
+    left: 390px;
+    width: 561px;
+    height: 234px;
+}
+
+.springImg {
+    top: 2143px;
+    left: 390px;
+    width: 561px;
+    height: 234px;
+}
+
+.cheeseImg {
+    top: 2143px;
+    left: 390px;
+    width: 561px;
+    height: 234px;
+}
+
+.package {
+    text-align: center;
+    font-family: Dosis;
+    font-size: 35px;
+}
+
+.packageTitles {
+    font-family: Dosis;
+    font-size: 25px;
+}
+
+.packageTexts {
+    font-family: SSP;
+    font-size: 16.1px;
+}
+
+.rightAndDown {
+    margin-left: 75px;
+    margin-right: 10px;
+    margin-top: 15px;
+}
+
+.leftAndDown {
+    margin-right: 90px;
+    margin-top: 15px;
+}
+
+.amenity {
+    font-size: 35px;
+    font-family: Dosis;
+    margin-top: 45px;
+}
+
+.heere {
+    font-size: 16px;
+    font-family: SSP;
+}
+
+.twentyFour {
+    width: 150px;
+    height: 101px;
+    margin-left: 100px;
+}
+
+.breakfast {
+    width: 150px;
+    height: 104px;
+    margin-left: -20px;
+}
+
+.valet {
+    width: 100px;
+    height: 115px;
+    margin-left: -90px;
+
+}
+
+.pool {
+    width: 155px;
+    height: 110px;
+    margin-left: -130px;
+}
+
+.twentyFourText {
+    font-size: 20px;
+    font-family: SSPB;
+    margin-left: 475px;
+    text-wrap: nowrap;
+}
+
+.breakfastText {
+    font-size: 20px;
+    font-family: SSPB;
+    text-wrap: nowrap;
+}
+
+.valetText {
+    font-size: 20px;
+    font-family: SSPB;
+    margin-left: -285px;
+    text-wrap: nowrap;
+}
+
+.poolText {
+    font-size: 20px;
+    font-family: SSPB;
+    margin-left: -590px;
+    text-wrap: nowrap;
+}
+
+.box {
+    width: 1137px;
+    height: 207px;
+    background-color: #000324;
+}
+
+.sizeBig {
+    height: 414px;
+    background-image: url("../assets/images/hamsterreserve.jpg");
+    background-size: 1136px;
+    background-repeat: no-repeat;
+    background-position: 50% 74%;
+}
+
+.reserveRoom {
+    font-size: 35px;
+    font-family: Dosis;
+    margin-top: 25px;
+}
+
+.formEffect {
+    border-radius: 0px;
+    width: 177px;
+    height: 38px;
+    background-color: #EBEDFC;
+    border: #7A90D9 1px solid;
+    margin-top: -25px;
+
+}
+
+.availBtn {
+    width: 177px;
+    height: 38px;
+    background-color: #006EDB;
+    border-radius: 0px;
+    border: #000DC7 1px solid;
+    font-family: SSPB;
+    color: #FFFFFF;
+    font-size: 19px;
+    text-wrap: nowrap;
+    text-align: center;
+    margin-top: -40px;
+}
+
+.footer {
+    width: 1920;
+    height: 300px;
+    background-color: #000324;
+}
+
+.footerTopText {
+    font-family: SSP;
+    font-size: 16px;
+    margin-top: -15px;
+}
+
+.footerBotText {
+    font-family: SSP;
+    font-size: 16px;
+    margin-top: -30px;
+}
+
+.formatting {
+    margin-left: 82px;
+    margin-right: -100px;
+    margin-top: -10px;
 }
