@@ -377,7 +377,7 @@
     text-wrap: nowrap;
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 1200px) {
     .breakTablet {
         display: flex;
         justify-content: center;
